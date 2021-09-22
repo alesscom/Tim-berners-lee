@@ -1,11 +1,10 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
-    width: 175px;
-    margin-bottom: 50px;
     border-radius: 50%;
 }
 
@@ -35,7 +34,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: cursive
+    font-family: 'Stick No Bills', sans-serif;
 }
 
 h2 {
@@ -73,26 +72,42 @@ p {
 }
 
 .menu {
-    list-style: none;
     position: fixed;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
+    background: white;
+    width: 100%;
 }
 
 .links {
-    float: left;
     color: greenyellow;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
+    display: inline;
 }
 
 .links:hover {
-    background-color: darkgreen;
+    background-color: chartreuse;
+    font-size: 25px;
+    text-decoration: underline;
+}
 
+#contacto {
+    background: chartreuse;
+}
+
+#contacto iframe {
+    width: 100%;
+}
+
+.contacto_1 h3 {
+    display: inline;
+}
+
+.contacto_1 a {
+    color: red;
+    text-shadow: none;
 }
